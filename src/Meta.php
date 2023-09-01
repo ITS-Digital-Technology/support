@@ -2,10 +2,20 @@
 
 namespace Northeastern\Support;
 
+/**
+ * class Meta
+ * 
+ * Northeastern University Support for Meta tag related content
+ *  - Brand Favicon support
+ * 
+ * @package Northeastern\Support
+ */
 class Meta
 {
     /**
      * Retrieve various Northeastern head/meta tags
+     * 
+     * @since 1.0 Initial Stable Release
      *
      * @return string
      */

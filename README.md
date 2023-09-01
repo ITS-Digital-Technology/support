@@ -46,12 +46,12 @@ And add the following code just after your opening `<body>` tag.
 
 If your project is using Laravel Blade's templating engine, you can add the following code inside your `<head>` tag.
 
-```php
+```blade
 {!! Northeastern\Support\Analytics::googleTagManagerScript() !!}
 ```
 
 And add the following code just after your opening `<body>` tag.
 
-```php
+```blade
 {!! Northeastern\Support\Analytics::googleTagManagerNoScript() !!}
 ```

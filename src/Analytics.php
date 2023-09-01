@@ -2,10 +2,20 @@
 
 namespace Northeastern\Support;
 
+/**
+ * class Analytics
+ * 
+ * Northeastern University Support for Analytics
+ *  - GTM Tag Manager script
+ * 
+ * @package Northeastern\Support
+ */
 class Analytics
 {
     /**
      * Retrieve Northeastern Google Tag Manager script
+     * 
+     * @since 1.0 Initial Stable Release
      *
      * @return string
      */
@@ -24,6 +34,8 @@ class Analytics
 
     /**
      * Retrieve Northeastern Google Tag Manager noscript
+     * 
+     * @since 1.0 Initial Stable Release
      *
      * @return string
      */
